@@ -1,0 +1,33 @@
+{
+  "name": "nueva-carpeta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea",
+    "css": "gulp css",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorge96js/FestivalDeMusica.git"
+  },
+  "keywords": [
+    "sass",
+    "gulp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorge96js/FestivalDeMusica/issues"
+  },
+  "homepage": "https://github.com/Jorge96js/FestivalDeMusica#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.0"
+  }
+}
