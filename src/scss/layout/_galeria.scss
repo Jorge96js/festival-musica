@@ -50,12 +50,15 @@
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
-    background-color: v.$blanco;
+    background-color: #b8b8b85e;
+    backdrop-filter: blur(100px);
     display: grid;
     place-items: center;
     color: v.$negro;
     font-weight: 700;
     &:hover{
         cursor: pointer;
+        background-color: v.$blanco;
+
     }
 }

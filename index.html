@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
@@ -15,9 +16,9 @@
         <div class="contenedor contenido-header">
             <h1>Festival de Rock</h1>
             <nav class="navegacion-principal">
-                <a href="*">Line up</a>
-                <a href="*">Galeria</a>
-                <a href="*">Boletos</a>
+                <a href="#lineup">Line up</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#boletos">Boletos</a>
             </nav>
 
         </div>
@@ -27,7 +28,7 @@
         <div class="overlay">
             <div class="contenedor contenido-video">
                 <h2>Rock & EDM Festival</h2>
-                <p>Julio 2023, villa ortusa Argentina</p>
+                <p>Julio 2023, Gerli Argentina</p>
             </div>
         </div>
         <video autoplay muted>
@@ -47,12 +48,12 @@
         </div>
         <div class="contenido-festival">
             <h2>Rcok & EDM Festival</h2>
-            <p class="fecha">Julio 2023,Villa ortuza Argentina</p>
+            <p class="fecha">Julio 2023,Gerli Argentina</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum neque, omnis similique architecto libero assumenda optio rem quidem! Repudiandae aliquam alias quas nihil libero quos culpa hic fugiat. Nobis, molestiae.</p>
         </div>
     </section>
     
-    <section class="lineup">
+    <section id="lineup" class="lineup">
         <h3>Line Up</h3>
         <p class="dia">Viernes 21</p>
 
@@ -167,10 +168,53 @@
         </div>
     </section>
 
-    <section class="galeria contenedor">
+    <section id="galeria" class="galeria contenedor">
         <h3>Galeria</h3>
         <ul class="galeria-imagenes"></ul>
     </section>
+
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Voletos</h3>
+        <div class="contenedor contenedor-boletos">
+            <div class="basico pase">
+                <p class="nombre-pase" >Pase 1 dias</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y bebida</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$100</p>
+                </footer>
+            </div>
+            <div class="Premium pase">
+                <p class="nombre-pase" >Pase 2 dias</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y bebida</li>
+                        <li>Camisa del evento</li>
+                        <li>Acceso vip</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$100</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+
+        <p>Rock & EDM Festival. Todos los derechos reservados</p>
+    </footer>
 
     <script src="build/js/main.js"></script>
 </body>
